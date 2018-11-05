@@ -1,0 +1,25 @@
+{% extends "base2.html" %}	 
+  {% block content %}
+
+    <p>Welcome {{username}}</p></br>
+    <table class="open_acc">
+       <caption>Please fill in the details.</caption> 
+       <tr>
+          <td class="tdLabel"><label for="Name" class="label">Name of the account owner:</label></td>
+          <td>{{form.Name}}</td>
+          </tr>
+       <tr>
+          <td class="tdLabel"><label for="Type" class="label">Type of account:</label></td>
+          <td>{{form.Type}}</td>
+       </tr>
+       <tr>
+          <td class="tdLabel"><label for="" class="label">Address Info:</label></td>
+          <td>{{form.addressinfo}}</td>
+       </tr> 
+       <tr>
+          <td class="tdLabel"><label for="Name" class="label">Mobile No.:</label></td>
+          <td>{{form.MobileNo}}</td>
+       </tr> 
+    
+ 
+{% endblock %}

@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html5>
+<head> 
+<title>ATBank</title>
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"> 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+</head>
+<body>
+   <div class="header">
+       <object class="asymbol" data="{{STATIC_URL}}/static/a.jpg"></object>
+   </div>
+   <div class="footer">
+   <form class="otp" method="POST">
+   <h1>This is a highly secured gateway</h1>
+   <p>The One time password has been sent to your registered email id.</br>
+      Please enter the Otp here.</p></br>
+   <h2>Caution: Do not share this with anyone.</h2>
+
+   {% csrf_token %}
+         {% if error_msg %}
+          <p class="message1">{{error_msg}}</p><br/>
+          {% endif %}
+
+   {{form.as_p}}
+   <input type="submit" value="Submit"/>
+   </form>
+   </div>
+
+</body>
+</html>
+ 

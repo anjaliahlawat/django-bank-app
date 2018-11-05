@@ -1,0 +1,211 @@
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #74c7db ;
+    margin-top: 20px;
+      
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    text-decoration-color: #fdfefe;
+}
+.tab button:hover {
+    background-color: #85dff5;
+
+}
+.tab button.active {
+    background-color: #ccc;
+}
+.header {
+    text-align: left;   
+    border-bottom-style: solid;
+    border-bottom-width: 2px; 
+    border-bottom-color: #ddd; 
+    height: 70px;
+
+}
+.asymbol {
+    width:150px;
+    height:50px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.login {
+    margin-top: 15px;
+    float: right;
+    background-color: #74c7db;
+    margin-right: 30px;
+    height:40px;
+    width:90px;
+}
+.register {
+    margin-top: 15px;
+    float: right;
+    background-color: #74c7db;
+    margin-right: 30px;
+    height:40px;
+    width:90px;
+}
+
+.m1 {
+ margin-top: 15px;
+ color: #0a184f;
+}
+.v1 {
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    width:350px;
+    margin-top: 25px;
+    
+}
+.last {
+    background-color: blue;
+}
+.smart_v {
+    margin-top: 60px;
+    margin-left:100px;
+}
+.imgs {
+    display: block;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.base2_footer {
+    margin-bottom: 100px;
+    height: 300px;
+}
+
+.login_form {
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 1px solid #ccc;
+    display:inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.formheading{  
+    background-color: #74c7db;  
+    color:white;  
+    padding:4px;  
+    text-align:center;  
+}
+.registerr {
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 1px solid #ccc;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+caption {
+    background-color:blue;  
+    color:white;  
+    padding:4px;  
+    text-align:center; 
+}
+.logout {
+    margin-top: 15px;
+    float: right;
+    background-color: #74c7db;
+    margin-right: 30px;
+    height:40px;
+    width:90px;
+}
+ {
+    
+}
+.col1 {
+    float:left;
+    width: 360px;
+    height:600px;
+}
+.col2 {
+    float:right;
+     width: 900px;
+    height:600px;
+}
+.tabb {
+    float:left;
+    border: 1px solid #ccc;
+    background-color: #74c7db ;
+    margin-top: 70px;
+    margin-right: 100px;
+    margin-left: 60px;
+}
+.tabb button {
+    display:block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration-color: #fdfefe;
+    border-bottom-style: solid;
+    border-bottom-width: 2px; 
+    border-bottom-color: #ddd; 
+
+}
+.tabb button:hover {
+    background-color: #85dff5;
+
+}
+.tabb button.active {
+    background-color: #ccc;
+}
+.message {
+    color: red;
+}
+.message1 {
+    color: red;
+}
+.base2_tabb {
+    margin-left: 25px;
+    margin-right: 10px;
+    overflow: hidden;
+     border: 1px solid #ccc;
+    background-color: #0a184f;
+      
+}
+.base2_tabb button {
+    background-color: inherit;
+    
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    text-decoration-color: #fefefe;
+    color: white;
+}
+.base2_tabb button:hover {
+    background-color: #193275;
+
+}
+.base2_tabb button.active {
+    background-color: #788086;
+}
+
+.otp {
+    text-align: center;
+    margin-top: 100px;
+    border: 1px solid black;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 20px;
+}
